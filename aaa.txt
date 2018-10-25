@@ -1,44 +1,9 @@
-1.axiosµÄ»ù±¾ÓÃ·¨
+1.axiosçš„åŸºæœ¬ç”¨æ³•
 
-2.axios½â¾ö¿çÓò
+2.axiosè§£å†³è·¨åŸŸ
  proxyTable: {
       '/api': {
-        target: 'https://api.douban.com',//ÉèÖÃÄãµ÷ÓÃµÄ½Ó¿ÚÓòÃûºÍ¶Ë¿ÚºÅ ±ğÍüÁË¼Óhttp
-        changeOrigin: true,
-        pathRewrite: {
-          '^/api': ''//ÕâÀïÀí½â³ÉÓÃ¡®/api¡¯´úÌætargetÀïÃæµÄµØÖ·£¬ºóÃæ×é¼şÖĞÎÒÃÇµô½Ó¿ÚÊ±Ö±½ÓÓÃapi´úÌæ ±ÈÈçÎÒÒªµ÷ÓÃ'http://40.00.100.100:3002/user/add'£¬Ö±½ÓĞ´¡®/api/user/add¡¯¼´¿É
-        }
-      }
-    },
-
-
-ÅäÖÃ¿çÓò£º
-
-configindex.js
-
-
-3.axiosµÄ·â×°
-
-4.app:mintui/vux
-
-pc:element,iview
-
-mint ui :
-µÚÒ»²½£º°²×°£ºnpm i mint-ui -S
-
-µÚ¶ş²½£ºmain.js
-
-import MintUI from 'mint-ui'
-import 'mint-ui/lib/style.css'
-Vue.use(MintUI)
-
-
-
-Ã÷Ìì:
-
-vuex:×´Ì¬À¸¹ÜÀí
-
-×÷Òµ£ºÊéÓ°ÒôÒ³ÃæÖĞµÄµçÓ°ºÍ¶ÁÊéÒ³Ãæ£¨ÉÏ¿ÎµÄ°¸Àı£©
+        
 
 
 
