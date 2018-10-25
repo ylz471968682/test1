@@ -1,0 +1,44 @@
+1.axios的基本用法
+
+2.axios解决跨域
+ proxyTable: {
+      '/api': {
+        target: 'https://api.douban.com',//设置你调用的接口域名和端口号 别忘了加http
+        changeOrigin: true,
+        pathRewrite: {
+          '^/api': ''//这里理解成用‘/api’代替target里面的地址，后面组件中我们掉接口时直接用api代替 比如我要调用'http://40.00.100.100:3002/user/add'，直接写‘/api/user/add’即可
+        }
+      }
+    },
+
+
+配置跨域：
+
+configindex.js
+
+
+3.axios的封装
+
+4.app:mintui/vux
+
+pc:element,iview
+
+mint ui :
+第一步：安装：npm i mint-ui -S
+
+第二步：main.js
+
+import MintUI from 'mint-ui'
+import 'mint-ui/lib/style.css'
+Vue.use(MintUI)
+
+
+
+明天:
+
+vuex:状态栏管理
+
+作业：书影音页面中的电影和读书页面（上课的案例）
+
+
+
